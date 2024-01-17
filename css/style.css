@@ -1,0 +1,89 @@
+* {
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    width: 11px;
+    background-color: rgb(41, 41, 41);
+    border: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+  
+  
+  /*RESPONSIVE*/
+  
+.btn-alert{
+    background-color: red;
+}
+
+.section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+  
+  .devider{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  .border-hover{
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;  
+  }
+  
+  .border-hover:hover{
+      border-color: blue;
+  }
+  
+  /*Intro Section*/
+  .intro-section p{
+      max-width: 560px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+  
+  body{
+    font-size: 20px;
+  }
+  a{
+    font-size: 20px;
+  }
+
+  .exemploTable{
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.exemploTable td, .exemploTable th {
+    border: 1px solid #000;
+    padding: 2%;
+    text-align: center;
+}
+
+.exemploTable tr:nth-child(even){
+    background-color: #165f43;
+
+}
+
+.exemploTable tr:hover{
+    background-color: #014635;
+}
+
+.exemploTable th{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #32c78e;
+    color: aliceblue;
+}
+  
